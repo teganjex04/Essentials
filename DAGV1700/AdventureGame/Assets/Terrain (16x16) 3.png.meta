@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 0aab0d0e447a4ac4585bc29ca78c9fd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1778786986257170331
+    second: Terrain (16x16) 3_0
+  - first:
+      213: -4250180841274310084
+    second: Terrain (16x16) 3_1
+  - first:
+      213: 7803607650777321018
+    second: Terrain (16x16) 3_2
+  - first:
+      213: -1312500983653711416
+    second: Terrain (16x16) 3_3
+  - first:
+      213: -3958279586326749084
+    second: Terrain (16x16) 3_4
+  - first:
+      213: 3141150966284696753
+    second: Terrain (16x16) 3_5
+  - first:
+      213: 6308352392108395069
+    second: Terrain (16x16) 3_6
+  - first:
+      213: -6166940589733337355
+    second: Terrain (16x16) 3_7
+  - first:
+      213: 5092183287705828831
+    second: Terrain (16x16) 3_8
+  - first:
+      213: 6239383545539400212
+    second: Terrain (16x16) 3_9
+  - first:
+      213: -5235519427724489459
+    second: Terrain (16x16) 3_10
+  - first:
+      213: -703526580288193484
+    second: Terrain (16x16) 3_11
+  - first:
+      213: -8834264073721275402
+    second: Terrain (16x16) 3_12
+  - first:
+      213: -5373756233334391872
+    second: Terrain (16x16) 3_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f32fee6558fa810800000000000000
+      internalID: 1778786986257170331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c328ca41b035405c0800000000000000
+      internalID: -4250180841274310084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 127
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e4a1720dbfb4c60800000000000000
+      internalID: 7803607650777321018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 170
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c148fd2f4f09cde0800000000000000
+      internalID: -1312500983653711416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 154
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460605720bd5119c0800000000000000
+      internalID: -3958279586326749084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 138
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc364b492c979b20800000000000000
+      internalID: 3141150966284696753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a4b99d315cb8750800000000000000
+      internalID: 6308352392108395069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6a10e1530aa6aa0800000000000000
+      internalID: -6166940589733337355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddf2ea78b11ba640800000000000000
+      internalID: 5092183287705828831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 63
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121b49e64eb69650800000000000000
+      internalID: 6239383545539400212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d43d7c1d2b757b0800000000000000
+      internalID: -5235519427724489459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c70eb7d429c36f0800000000000000
+      internalID: -703526580288193484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb19d181a3666580800000000000000
+      internalID: -8834264073721275402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain (16x16) 3_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbff8a5d259c65b0800000000000000
+      internalID: -5373756233334391872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Terrain (16x16) 3_0: 1778786986257170331
+      Terrain (16x16) 3_1: -4250180841274310084
+      Terrain (16x16) 3_10: -5235519427724489459
+      Terrain (16x16) 3_11: -703526580288193484
+      Terrain (16x16) 3_12: -8834264073721275402
+      Terrain (16x16) 3_13: -5373756233334391872
+      Terrain (16x16) 3_2: 7803607650777321018
+      Terrain (16x16) 3_3: -1312500983653711416
+      Terrain (16x16) 3_4: -3958279586326749084
+      Terrain (16x16) 3_5: 3141150966284696753
+      Terrain (16x16) 3_6: 6308352392108395069
+      Terrain (16x16) 3_7: -6166940589733337355
+      Terrain (16x16) 3_8: 5092183287705828831
+      Terrain (16x16) 3_9: 6239383545539400212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
