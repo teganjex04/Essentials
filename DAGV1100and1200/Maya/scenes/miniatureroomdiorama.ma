@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: miniatureroomdiorama.ma
-//Last modified: Sat, Sep 26, 2026 01:06:19 PM
+//Last modified: Sat, Sep 26, 2026 01:06:45 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "UsdDefaultSettings" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.37.0";
@@ -11,17 +11,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "D757F51C-46E8-4847-FF54-7D8744D64F70";
+fileInfo "UUID" "33DC8D05-432C-9A9B-B8D3-AC8D030B7556";
 createNode transform -s -n "persp";
 	rename -uid "E09294BC-43F0-AB98-C9D3-B08E1D188185";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 19.548789318123575 17.355610858271987 22.394900288864115 ;
+	setAttr ".t" -type "double3" 33.182392603022663 26.627187416506683 34.757096850597819 ;
 	setAttr ".r" -type "double3" -26.738352729603807 47.799999999986539 -2.367468507008466e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1D828EEC-4EA5-8F9E-4942-8E863D90FF19";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 28.32473389282584;
+	setAttr ".coi" 48.932042650549633;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
