@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: miniatureroomdiorama.ma
-//Last modified: Sat, Sep 26, 2026 01:04:46 PM
+//Last modified: Sat, Sep 26, 2026 01:06:19 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "UsdDefaultSettings" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.37.0";
@@ -11,17 +11,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "AD305736-4340-9114-28EA-05BDEF78E6C9";
+fileInfo "UUID" "D757F51C-46E8-4847-FF54-7D8744D64F70";
 createNode transform -s -n "persp";
 	rename -uid "E09294BC-43F0-AB98-C9D3-B08E1D188185";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 26.757179268401121 11.874249341398114 26.116900750847936 ;
-	setAttr ".r" -type "double3" -12.338352729602612 51.39999999998512 -1.2745066108260785e-15 ;
+	setAttr ".t" -type "double3" 19.548789318123575 17.355610858271987 22.394900288864115 ;
+	setAttr ".r" -type "double3" -26.738352729603807 47.799999999986539 -2.367468507008466e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1D828EEC-4EA5-8F9E-4942-8E863D90FF19";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 33.986648568448977;
+	setAttr ".coi" 28.32473389282584;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -519,7 +519,7 @@ createNode mesh -n "BaseboardsShape" -p "Baseboards";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "small_coffee_table";
 	rename -uid "156306A2-4012-4D07-BC89-2EA13C55C256";
-	setAttr ".t" -type "double3" 1.1110424154924496 0 5.7669094027914749 ;
+	setAttr ".t" -type "double3" 4.7103065716867167 0 6.7070579211870456 ;
 	setAttr ".rp" -type "double3" 0 2.3191896913686341 0.0075944487960547535 ;
 	setAttr ".sp" -type "double3" 0 2.3191896913686341 0.0075944487960547535 ;
 createNode mesh -n "small_coffee_tableShape" -p "small_coffee_table";
@@ -704,6 +704,7 @@ createNode mesh -n "small_coffee_tableShape" -p "small_coffee_table";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "books";
 	rename -uid "E3BA96A5-41F1-F07D-7DD7-CA871AC03C56";
+	setAttr ".t" -type "double3" 3.918405487303072 0 0.93624563754952206 ;
 	setAttr ".rp" -type "double3" 0.89107381422529597 3.5725391805970474 5.9581822362332941 ;
 	setAttr ".sp" -type "double3" 0.89107381422529597 3.5725391805970474 5.9581822362332941 ;
 createNode mesh -n "booksShape" -p "books";
