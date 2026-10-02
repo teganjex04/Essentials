@@ -12227,7 +12227,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5594084580586378827, guid: 64c38faca4977084e9b9939a913a84a7, type: 3}
   m_PrefabInstance: {fileID: 7965483780654902897}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1782929485
+--- !u!95 &1782929484
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -12237,7 +12237,7 @@ Animator:
   m_GameObject: {fileID: 1782929482}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2a7896f643aab7442bc2fa45954c26c9, type: 2}
+  m_Controller: {fileID: 9100000, guid: d8f01bac53e03b34290221895b4f1661, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12249,6 +12249,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1782929487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782929482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd887bc84ba82451f9fcc0243328aa83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatorController
+  animator: {fileID: 1782929484}
 --- !u!4 &1787177015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3782543322886541298, guid: 4ed9d0dd1e3774f4fb4ba44e8e0a3167, type: 3}
@@ -13116,13 +13129,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 6721897321454036172, guid: 64c38faca4977084e9b9939a913a84a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5594084580586378827, guid: 64c38faca4977084e9b9939a913a84a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1782929485}
+      addedObject: {fileID: 1782929484}
+    - targetCorrespondingSourceObject: {fileID: 5594084580586378827, guid: 64c38faca4977084e9b9939a913a84a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1782929487}
   m_SourcePrefab: {fileID: 100100000, guid: 64c38faca4977084e9b9939a913a84a7, type: 3}
 --- !u!1001 &8348224167091724069
 PrefabInstance:
