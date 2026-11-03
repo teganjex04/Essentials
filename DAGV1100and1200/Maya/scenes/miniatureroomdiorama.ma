@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: miniatureroomdiorama.ma
-//Last modified: Sun, Nov 01, 2026 05:10:08 PM
+//Last modified: Tue, Nov 03, 2026 04:28:17 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -15,12 +15,12 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "23882E9A-48D3-6020-79C4-C4A4BFD9EDAA";
+fileInfo "UUID" "E868AA76-479E-249E-B445-088F3EAF8D4B";
 createNode transform -s -n "persp";
 	rename -uid "E09294BC-43F0-AB98-C9D3-B08E1D188185";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 20.990112244732096 19.288511457698366 30.795127157734168 ;
-	setAttr ".r" -type "double3" 696.86164704982048 1831.7999999970441 -9.3557536957519658e-16 ;
+	setAttr ".r" -type "double3" 696.86164704982048 1831.7999999970443 -9.3557536957519658e-16 ;
 	setAttr ".rp" -type "double3" 8.8817841970012523e-16 -1.7763568394002505e-15 -1.7763568394002505e-15 ;
 	setAttr ".rpt" -type "double3" 1.1731634477491983e-16 -6.5398901810712548e-16 1.3495694936422979e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -31541,8 +31541,8 @@ createNode aiSkyDomeLight -n "aiSkyDomeLightShape1" -p "aiSkyDomeLight1";
 	setAttr ".ai_use_color_temperature" yes;
 createNode transform -n "aiAreaLight1";
 	rename -uid "C576A375-43DA-F334-6DE6-CBA1C8F794E8";
-	setAttr ".t" -type "double3" 15.931203998540463 10.001164332472875 9.1384338292629206 ;
-	setAttr ".r" -type "double3" -26.547074162540614 58.748402246964567 -3.4660530418714046 ;
+	setAttr ".t" -type "double3" 15.931203998540463 10.001164332472875 8.5843272699442643 ;
+	setAttr ".r" -type "double3" -26.547074162540618 58.748402246964567 -3.4660530418714046 ;
 	setAttr ".s" -type "double3" 8.2735180373310921 5.0328998527704609 5.4469069019340317 ;
 createNode aiAreaLight -n "aiAreaLightShape1" -p "aiAreaLight1";
 	rename -uid "DA9F3078-48B6-1486-9208-9599E2DD4197";
@@ -31622,20 +31622,20 @@ createNode UsdDefaultSettings -n "UsdDefaultRenderSettings8";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "F0E2D6E7-42EF-DC27-45E2-449EAFD6D0FD";
+	rename -uid "B1C8C40B-4B32-62D6-C7A4-6C99F1679154";
 	setAttr -s 40 ".lnk";
 	setAttr -s 40 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "DD708749-413B-A09A-6D6B-BCB1F7C76325";
+	rename -uid "BA60D481-4760-57F3-33DC-24A9D7F11948";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "0E4A73EF-451E-C54F-94F1-6C9F753A959C";
+	rename -uid "9134287C-48E8-14DA-BA64-F7B10088267B";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "149325F2-43F4-A0CA-88F3-C6A528AC5A1A";
+	rename -uid "0678166E-49F1-A45F-C76D-FA8DEB4591F6";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "FDB11CC4-4474-4511-C71A-2DAC979620B9";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "5ECB51E1-4323-7CC6-A05E-27A1D356418E";
+	rename -uid "D8F0E059-43E3-774B-509F-6D856DDC4DF2";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "CBDAF580-4CE4-D664-C302-F7B4581297F7";
 	setAttr ".g" yes;
