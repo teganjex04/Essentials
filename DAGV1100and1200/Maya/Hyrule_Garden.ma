@@ -1,28 +1,29 @@
 //Maya ASCII 2027 scene
-//Name: GodOfWar_Cabin.ma
-//Last modified: Sun, Nov 08, 2026 01:57:57 PM
+//Name: Hyrule_Garden.ma
+//Last modified: Sun, Nov 08, 2026 02:01:59 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
 requires "mtoa" "5.6.2";
 requires -nodeType "UsdDefaultSettings" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.37.0";
+requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "900CEE71-49C9-137B-82CF-6D96A6D9B457";
+fileInfo "UUID" "ABF26293-4C76-F89C-C5D8-84A7D2F50CE2";
 createNode transform -s -n "persp";
 	rename -uid "66DE4A08-4619-B96C-1CAC-99A18BDD3AB6";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.4124782765257944 4.4192039396556444 23.435061487576398 ;
+	setAttr ".t" -type "double3" -4.4124782765257082 4.41920393965564 23.435061487575663 ;
 	setAttr ".r" -type "double3" -0.33835272961966406 -6.6000000000007573 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "55293620-4A3A-9E77-8F9A-358767DC96CC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 27.98445628401036;
+	setAttr ".coi" 27.984456284009607;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -391,7 +392,6 @@ createNode mesh -n "wall_support2Shape" -p "wall_support2";
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:18]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr -s 2 ".ciog[0].cog";
 	setAttr -s 6 ".gtag";
 	setAttr ".gtag[0].gtagnm" -type "string" "back";
 	setAttr ".gtag[0].gtagcmp" -type "componentList" 4 "f[1]" "f[7:8]" "f[11]" "f[17:18]";
@@ -490,7 +490,6 @@ createNode mesh -n "wall_support3Shape" -p "wall_support3";
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:18]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr -s 3 ".ciog[0].cog";
 	setAttr -s 6 ".gtag";
 	setAttr ".gtag[0].gtagnm" -type "string" "back";
 	setAttr ".gtag[0].gtagcmp" -type "componentList" 4 "f[1]" "f[7:8]" "f[11]" "f[17:18]";
@@ -771,7 +770,7 @@ createNode mesh -n "front_wall1Shape" -p "front_wall1";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "64A73582-451F-460B-BD87-25AC249EAD4C";
+	rename -uid "23B44FFC-428E-EAC2-A5BF-2DAFCDBF08DE";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode UsdDefaultSettings -n "UsdDefaultRenderSettings";
@@ -781,16 +780,16 @@ createNode UsdDefaultSettings -n "UsdDefaultRenderSettings";
 	setAttr ".asp" -type "string" "UsdDefaultRenderSettings,/Render/SceneRenderSettings";
 lockNode -l 1 ;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "6BC0D427-46F8-6136-4131-B288ECFF9F5A";
+	rename -uid "640D7AFA-4DE5-1521-4D79-C49A428533B1";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "CABDE102-4ACA-05BF-54AF-8792C61DADF0";
+	rename -uid "11E9DFB8-4B39-7B00-8EF8-3EA08AAD79C4";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "8ED39266-4F85-2601-6C00-35AD6EB370EC";
+	rename -uid "9EAF9B57-4780-576D-85B1-E88508CFBFE9";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "416968C1-48FA-6BC2-5CAB-1EA16F78CA07";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "48A2C20B-41AE-9D77-142F-0EBEBDA05815";
+	rename -uid "AFA2236A-49FE-97B0-F70F-348DB4826972";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "9C01EDC2-4350-ED15-157F-1BB289185C1E";
 	setAttr ".g" yes;
@@ -903,8 +902,6 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "groupId21.id" "wall_support2Shape.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "wall_support2Shape.iog.og[0].gco";
 connectAttr "groupId20.id" "wall_support3Shape.iog.og[0].gid";
@@ -925,4 +922,4 @@ connectAttr "wall_support2Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId19.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId20.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId21.msg" ":initialShadingGroup.gn" -na;
-// End of GodOfWar_Cabin.ma
+// End of Hyrule_Garden.ma
